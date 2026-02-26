@@ -21,6 +21,7 @@ def get_data():
     user_age = input('Enter your age: ')
     user_colour = input("Enter your favourite colour: ")
     global user_id
+    
     user_id +=1
     global data
     data.append(user_id)
@@ -49,3 +50,5 @@ if __name__ == "__main__":
 
 # get_data()
 # print(data)
+
+# i want this
